@@ -1,15 +1,15 @@
 {
   "Command Template": {
-    "prefix": "define-command",
+    "prefix": "+",
     "body": [
       "// @ts-check",
       "/**",
       " * @type {CassidySpectra.CommandMeta}",
       " */",
       "export const meta = {",
-      "  name: \"${1:commandName}\",",
+      "  name: \"${1:isagani}\",",
       "  description: \"${2:Command description}\",",
-      "  author: \"${3:Author Name}\",",
+      "  author: \"${3:Isagani}\",",
       "  version: \"${4:1.0.0}\",",
       "  usage: \"${5:commandName}\",",
       "  category: \"${6:Category}\",",
